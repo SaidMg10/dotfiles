@@ -1,0 +1,9 @@
+ls
+ls lah
+ls -lah
+ls 
+mkdir
+clear
+exit
+git s
+exit
