@@ -54,50 +54,52 @@ style = "fg:text bg:none"
 disabled = true
 symbol = " "
 
+
 [python]
 disabled = false
 format = "[$symbol$pyenv_prefix($version)( $virtualenv)](fg:peach)"
-symbol = " "
+symbol = "🐍 "
 version_format = "$raw"
 
 [java]
 format = '[[ $symbol ($version) ](fg:red)]($style)'
 version_format = "$raw"
-symbol = " "
+symbol = "☕ "
 disabled = false
 
 [c]
 format = '[[ $symbol ($version) ](fg:blue)]($style)'
-symbol = " "
+symbol = " "
 version_format = "$raw"
 disabled = false
 
 [zig]
 format = '[[ $symbol ($version) ](fg:peach)]($style)'
 version_format = "$raw"
+symbol = "↯ "
 disabled = false
 
 [bun]
 version_format = "$raw"
 format = '[[ $symbol ($version) ](fg:text)]($style)'
+symbol = "🟢 "
 disabled = false
 
 [nodejs]
-symbol = ""
+symbol = " "
 format = '[[ $symbol ($version) ](fg:green)]($style)'
 
 [rust]
-symbol = ""
+symbol = " "
 format = '[[ $symbol ($version) ](fg:red)]($style)'
 
 [golang]
-symbol = ""
+symbol = ""
 format = '[[ $symbol ($version) ](fg:teal)]($style)'
 
 [php]
-symbol = ""
+symbol = "🐘 "
 format = '[[ $symbol ($version) ](fg:peach)]($style)'
-
 [time]
 disabled = false
 time_format = "%R"
