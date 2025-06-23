@@ -1,10 +1,5 @@
-
-# Nushell Environment Config File
-#
-# version = "0.95.0"
-
 def create_left_prompt [] {
-    let dir = match (do --ignore-shell-errors { $env.PWD | path relative-to $nu.home-path }) {
+    let dir = match (do --ignore-errors { $env.PWD | path relative-to $nu.home-path }) {
         null => $env.PWD
         '' => '~'
         $relative_pwd => ([~ $relative_pwd] | path join)
@@ -99,7 +94,7 @@ use std "path add"
 # $env.PATH = ($env.PATH | uniq)
 path add /opt/homebrew/bin
 path add /run/current-system/sw/bin
-path add /Users/said/.local/bin
+path add /Users/omerxx/.local/bin
 
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
@@ -108,7 +103,11 @@ mkdir ~/.cache/starship
 starship init nu | save -f ~/.cache/starship/init.nu
 zoxide init nushell | save -f ~/.zoxide.nu
 
-$env.STARSHIP_CONFIG = /Users/said//.config/starship/starship.toml
+$env.STARSHIP_CONFIG = '/Users/said/.config/starship/starship.toml'
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
+$env.ZOXIDE_NU = '/Users/said/.zoxide.nu'
 mkdir ~/.cache/carapace
 carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
+
+mkdir ($nu.data-dir | path join "vendor/autoload")
+starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")

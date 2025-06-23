@@ -75,9 +75,6 @@
 plugins=(git)
 
 #source $ZSH/oh-my-zsh.sh
-
-eval "$(starship init zsh)"
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -148,6 +145,8 @@ alias le='eza -al --icons --git --time-style=long-iso --header'
 alias dotstow="stow --target=$HOME"
 alias configstow="stow --target=~/.config"
 
+export PATH="$HOME/go/bin:$PATH"
+
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="$PATH:/Users/said/Development/flutter/bin"
@@ -157,9 +156,6 @@ export NVM_DIR="$HOME/.nvm"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Exporting zsh
-export XDG_CONFIG_HOME="/Users/said/.config"
-
 # Adding Zoxide
 eval "$(zoxide init zsh)"
 
@@ -168,3 +164,5 @@ eval "$(atuin init zsh)"
 
 # Adding Starship
 eval "$(starship init zsh)"
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+

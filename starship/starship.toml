@@ -7,23 +7,107 @@ right_format = """$all"""
 command_timeout = 1000
 
 [character]
-vicmd_symbol = "[N] >>>"
-success_symbol = '[➜](bold green)'
+success_symbol = "[󱗞](fg:green)"
+error_symbol = "[󱗞](fg:red)"
+vimcmd_symbol = "[N](bold red)"
+vimcmd_replace_one_symbol = "[R](bold peach)"
+vimcmd_visual_symbol = "[V](bold mauve)"
+
+[username]
+style_user = 'bold blue'
+style_root = 'bold red'
+format = '[󱗞 $user](fg:$style) '
+disabled = false
+show_always = true
+
+[directory]
+format = "[$path](bold $style)[$read_only]($read_only_style) "
+truncation_length = 2
+style = "fg:blue"
+read_only_style = "fg:blue"
+before_repo_root_style = "fg:blue"
+truncation_symbol = "…/"
+truncate_to_repo = true
+read_only = "  "
 
 [directory.substitutions]
-'~/tests/starship-custom' = 'work-project'
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[cmd_duration]
+format = " took [ $duration]($style) "
+style = "bold fg:yellow"
+min_time = 500
 
 [git_branch]
-format =  '[$symbol$branch(:$remote_branch)]($style)'
+format = "-> [$symbol$branch]($style) "
+style = "bold fg:mauve"
+symbol = " "
+
+[git_status]
+format = '[$all_status$ahead_behind ]($style)'
+style = "fg:text bg:none"
+
+[docker_context]
+disabled = true
+symbol = " "
+
+[python]
+disabled = false
+format = "[$symbol$pyenv_prefix($version)( $virtualenv)](fg:peach)"
+symbol = " "
+version_format = "$raw"
+
+[java]
+format = '[[ $symbol ($version) ](fg:red)]($style)'
+version_format = "$raw"
+symbol = " "
+disabled = false
+
+[c]
+format = '[[ $symbol ($version) ](fg:blue)]($style)'
+symbol = " "
+version_format = "$raw"
+disabled = false
+
+[zig]
+format = '[[ $symbol ($version) ](fg:peach)]($style)'
+version_format = "$raw"
+disabled = false
+
+[bun]
+version_format = "$raw"
+format = '[[ $symbol ($version) ](fg:text)]($style)'
+disabled = false
+
+[nodejs]
+symbol = ""
+format = '[[ $symbol ($version) ](fg:green)]($style)'
+
+[rust]
+symbol = ""
+format = '[[ $symbol ($version) ](fg:red)]($style)'
+
+[golang]
+symbol = ""
+format = '[[ $symbol ($version) ](fg:teal)]($style)'
+
+[php]
+symbol = ""
+format = '[[ $symbol ($version) ](fg:peach)]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+format = '[[   $time ](fg:subtext0)]($style)'
 
 [aws]
 format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
 disabled = false
 style = 'bold blue'
 symbol = " "
-
-[golang]
-format = '[ ](bold cyan)'
 
 [kubernetes]
 symbol = '☸ '
@@ -33,9 +117,6 @@ format = '[$symbol$context( \($namespace\))]($style) '
 contexts = [
   { context_pattern = "arn:aws:eks:us-west-2:577926974532:cluster/zd-pvc-omer", style = "green", context_alias = "omerxx", symbol = " " },
 ]
-
-[docker_context]
-disabled = true
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
@@ -64,3 +145,4 @@ surface0 = "#313244"
 base = "#1e1e2e"
 mantle = "#181825"
 crust = "#11111b"
+
