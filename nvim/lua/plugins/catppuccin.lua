@@ -65,6 +65,11 @@ return {
         transparent_background = true,
       })
       vim.cmd.colorscheme("catppuccin")
+      -- Forzar transparencia en floating windows
+
+      vim.api.nvim_set_hl(0, "NormalFloat", { bg = "NONE" })
+      vim.api.nvim_set_hl(0, "FloatBorder", { fg = "#89b4fa", bg = "NONE" })
+      vim.api.nvim_set_hl(0, "FloatTitle", { bg = "NONE" })
     end,
   },
 }
