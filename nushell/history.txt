@@ -1,1 +1,394 @@
 exit
+nvim
+source 
+source ~/.zshrc
+nvim
+z 
+z zshr
+nvim
+clear
+source ~/.zshrc
+echo $OPENAI_API_KEY
+clear
+z nushell
+ls
+z 
+z dotfiles
+ls
+z nushell
+ls
+clear
+ls
+nvim
+clear
+exit
+nvim
+z lua
+nvim
+clear
+nvim
+clear
+nvim
+clear
+nvim
+clear
+z carws
+z nest cars
+z cars
+ls
+clear
+nvim
+z plugins
+nvim
+clear
+z cars
+yarn start:dev
+nvim
+z plugins
+ls
+nvim
+clear
+ls
+nvim
+clear
+q
+ls
+clear
+z cars
+ls
+clear
+ls
+clear
+yarn start:dev
+nvim
+yarn start:dev
+ls
+clear
+git s
+git sb
+git ls
+ls
+clear
+nvim
+git s
+nvim
+ls
+clear
+git commit -m "feat(auth, users, cars): implement authentication and role-based access control<\n>"
+clear
+nvim
+git commit -m "feat(auth, users, cars): implement authentication and role-based access control<\n>"
+yarn add -D eslint@^8 @typescript-eslint/eslint-plugin@^6 @typescript-eslint/parser@^6<\n>
+git commit -m "feat(auth, users, cars): implement authentication and role-based access control<\n>"
+nvim
+git commit -m "feat(auth, users, cars): implement authentication and role-based access control<\n>"
+nvim
+git commit -m "feat(auth, users, cars): implement authentication and role-based access control<\n>"
+clear
+nvim
+git commit -m "feat(auth, users, cars): implement authentication and role-based access control<\n>"
+nvim
+git commit -m "feat(auth, users, cars): implement authentication and role-based access control<\n>"
+nvim
+npm install 
+clear
+yarn
+nvim
+git commit -m "feat(auth, users, cars): implement authentication and role-based access control<\n>"
+wq
+nvim
+git commit -m "feat(auth, users, cars): implement authentication and role-based access control<\n>"
+clear
+git push
+git push --set-upstream origin Back-End
+clear
+ls
+clear
+nvim
+clear
+nvim
+clear
+git pull 
+nvim
+ls
+clear
+nvim
+clear
+z ..
+ls
+z ..
+ls
+clear
+z golang/
+ls
+clear
+z ..
+clear
+ls
+clear
+z .. 
+z ..
+clear
+exit
+nu 
+q 
+quit
+z ..
+clear
+z .. 
+source ~/.config/nushell/config.nu<\n>
+z nushell
+z dotfiles/nushell
+ls
+clear
+z golang/
+clear
+z 
+z golang
+ls
+clear
+nvim
+z golang
+nvim
+ls
+clear
+git clone git@github.com:SaidMg10/ride-sharing.git
+z ride-sharing/
+ls
+clear
+ls
+clear
+nvim
+clear
+z ride-sharing/
+ls
+clear
+go run tools/create_service.go -name trip
+go mod 
+go mod download
+clear
+ls
+clear
+nvim
+tilt up
+ls
+clear
+exit
+nu
+tilt up
+exit
+nu 
+z ride
+ls
+clear
+exit 
+clear
+z ..
+z ride
+ls
+clear
+brew install minikube
+minikube start
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/arm64/kubectl"
+brew install kubectl<\n>
+curl -fsSL https://raw.githubusercontent.com/tilt-dev/tilt/master/scripts/install.sh | bash
+clear
+ls
+clear
+tilt up
+clear
+ls
+cat tiltfile
+tilt up
+clear
+ls
+clear
+minikube down
+minikube --help
+minikube stop
+clear
+ls
+clear
+ls
+clear
+z .
+z ..
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+mkdir GoFinance
+ls
+mv GoFinance go-finance
+ls
+clear
+z finance
+z go-finance
+ls
+clear
+go mod init github.com/SaidMg10/go-finance
+ls
+clear
+go get -u github.com/gin-gonic/gin
+go get -u gorm.io/gorm
+gorm.io/driver/postgres
+go get -u gorm.io/driver/postgres
+go get github.com/spf13/viper
+go get github.com/golang-migrate/migrate/v4
+go get github.com/stretchr/testify
+ls
+nvim
+ls
+clear
+z ..
+ls
+z barber-api
+ls
+tree 
+z finance
+ls
+clear
+nvim 
+tree
+clear
+z barber
+cat internal/domain/models.go
+z app
+z ..
+z go
+z booking-api/
+ls
+clear
+cat internal/domain/models.go
+clear
+exit
+z boo
+z barber
+z book
+clea
+clear
+cat internal/domain/models.go
+exi
+exit
+nvim
+clear
+z .. 
+clear
+z nest
+docker compose 
+docker compose up -d
+nvim
+ls
+nvim
+docker compose up -d template_db
+yarn start:dev
+clear
+exit
+z nest
+ls
+clear
+ls
+clear
+nvim
+ls
+clear
+z ..
+ls
+clear
+ls
+cp -r cars-nestjs crm-kumo-motors
+ls
+clear
+ls
+z crm-kumo-motors
+clear
+rm -rf .git
+ls
+clear
+git init 
+git remote add origin git@github.com:SaidMg10/crm-kumo-motors.git<\n>git branch -M main<\n>git push -u origin main
+git add .
+git push
+git push --set-upstream origin main
+ls
+clear
+git add .
+git commit -m "First commit"
+git push
+git push --set-upstream origin main
+clear
+z nest
+ls
+clear
+ls
+z crm
+ls
+clear
+nvim
+cp `../../../../Google Drive/Mi unidad/Hyōka/Introduction Brain/Income on demand/Proyects/ERP y CRM Kumo Motors/` ./docs/
+cp -r `../../../../Google Drive/Mi unidad/Hyōka/Introduction Brain/Income on demand/Proyects/ERP y CRM Kumo Motors/` ./docs/
+ls
+clear
+ls
+nvim
+clear
+.
+clear
+exit
+z cr
+ls
+clear
+git s
+git add .
+git commit -m "feat(docs): add docs directory for proyect documentation"
+git push
+clear
+nvim
+git s
+git add .
+git push 
+git pull 
+git s
+git add .
+git s
+git add .
+ls 
+nvim
+clear
+git commit -m "fix(docs): fix spaces in directory names in documentation"<\n>
+git push
+git pull origin main --rebase<\n>git push origin main<\n>
+nvim
+git s
+git add . 
+git commit -m "fix(docs): fix Director.md"
+git push
+git s
+nvim
+git s
+git add .
+git commit -m "fix(docs): fix Director.md"
+git push
+nvim
+clear
+git s 
+clear
+nvim
+exit
+clear
+z dotfiles/
+ls
+clear
+nvim
+clear
+nvim
+ls
+git s
