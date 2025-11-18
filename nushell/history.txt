@@ -392,3 +392,1202 @@ clear
 nvim
 ls
 git s
+git add . 
+git commit -m "nuevos plugins integrados"
+git push
+clear
+git s
+clear
+z ..
+clar
+clear
+clea
+clear
+ls
+clear
+z go
+ls
+z ..
+ls
+clear
+z golang
+ls
+mkdir go-oauth
+z go-oauth
+ls
+clear
+ls
+go mod init github.com/SaidMg10/go-oauth
+nvim
+clear
+go get golang.org/x/oauth2
+go get golang.org/x/oauth2/google
+z oauth
+ls
+clear
+ls
+clear
+go run .
+go run main
+ls
+clear
+ls
+go run 
+go mod
+clear
+nvim
+go run .
+go run 
+ls
+go run main
+ls
+clear
+go run .
+clear
+ls
+go run .
+clear
+go run .
+nvim
+clear
+z .. 
+ls
+clear
+ls
+z nest
+ls
+z ..
+ls
+z ..
+ls 
+z nestjs
+ls
+z go
+ls
+clear
+z
+z go
+z golang
+ls
+clear
+ls
+mkdir httpclient
+z httpclient
+clear
+z 
+z htt
+go run .
+go run main
+go run client
+go run client.go
+nvim
+ls gocourse
+z gocourse
+ls
+z ..
+mv httpclient/ gocourse/
+ls
+tree gocourse
+z gocourse
+mkdir httpserver
+z httpserver
+ls
+clear
+clear
+cd 
+ls
+clear
+z httpserver
+ls
+clear
+go run server.go
+ls
+clear
+brew install wrk
+wrk --version
+clear
+nvim
+clear
+z ..
+mkdir simple-api
+z simple-api
+nvim
+go mod
+go init 
+go mod init github.com/SaidMg10/simple-api
+openssl req -x509 -newkey rsa:2048 -nodes -keyout key.pem -out cert.pem -days 365
+ls
+clear
+nvim
+ls
+clear
+nvim
+clear
+ls
+z .. 
+ls
+clear
+ls
+mkdir serialization
+z serialization
+go mod init github.com/SaidMg10/serialization
+ls
+clear
+nvim
+z ..
+ls
+clear
+z ..
+ls
+mkdir rest-api-go
+z rest-api-go
+ls
+z ..
+ls
+mv rest-api-go management-system-api
+ls
+z management-system-api/
+ls
+clear
+nvim
+ls
+clear
+ls
+git config -l
+clear
+go mod init github.com/SaidMg10/management-system-api
+ls
+go mod tidy
+ls
+clear
+git init
+ls
+clear
+ls
+nvim
+z ..
+ls
+z ..
+clear
+ls
+z mana
+ls
+clear
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -config openssl.cnf
+ls
+mv `../../../../Downloads/OpenSSL Config for Go Bootcamp.cnf` ./
+ls
+clear
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -config openssl.cnf
+clear
+ls
+clear
+z ..
+ls
+clear
+mkdir go-authx
+z go-authx
+ls
+go mod init github.com/SaidMg10/go-authx
+ls
+clear
+go get -u github.com/gin-gonic/gin
+ls
+clear
+z go-authx
+ls
+go get github.com/joho/godotenv
+go run main.go
+clear
+go run main.go
+clear
+ls
+clear
+go run main.go
+clear
+ls
+go run main.go
+nvim
+clear
+z dot
+ls
+nvim
+exit
+nu
+exit
+clear
+exit
+ls
+clear
+z go
+z authx
+ls
+clear
+ls
+clear
+z au
+clear
+ls
+clear
+nvim
+:wq
+clear
+ls
+clear
+docker compose up -d
+clear
+docker compose up -d
+go get -u github.com/jackc/pgx/v5
+go run main.go
+air init
+migrate create -ext sql -dir db/migrations -seq create_users_table
+migrate -database postgres://postgres:adminPassword@localhost:5432/task?sslmode=disable -path db/migrations up
+migrate -database postgres://postgres:adminPassword@localhost:5432/tasks?sslmode=disable -path db/migrations up
+ls
+clear
+migrate -database postgres://postgres:adminPassword@localhost:5432/tasks?sslmode=disable -path db/migrations up
+ls -l db/migrations
+migrate -database postgres://postgres:adminPassword@localhost:5432/tasks?sslmode=disable -path db/migrations down
+migrate -database postgres://postgres:adminPassword@localhost:5432/tasks?sslmode=disable -path db/migrations up
+ls -l db/migrations
+migrate -database postgres://postgres:adminPassword@localhost:5432/task?sslmode=disable -path db/migrations up
+migrate -database postgres://postgres:adminPassword@localhost:5432/tasks?sslmode=disable -path db/migrations up
+migrate -database postgres://postgres:adminPassword@localhost:5432/tasks?sslmode=disable -path db/migrations down
+ls
+clear
+migrate -database postgres://postgres:adminPassword@localhost:5432/tasks?sslmode=disable -path db/migrations up
+air 
+air
+clear
+air
+nvim
+z ..
+ls
+clear
+z ..
+ls
+z react
+ls
+git clone https://github.com/rajanlagah/react-login.git
+z react-login/
+ls
+rm -rf .git
+clear
+ls
+z ..
+z authx
+ls
+clear
+clear
+go get golang.org/x/oauth2
+go get golang.org/x/oauth2/google
+air
+nvim
+ls
+clear
+go get -u github.com/golang-jwt/jwt/v5
+air
+go get github.com/gin-contrib/cors
+ls
+clear
+z ..
+ls
+ls 
+clear
+ls
+tree booking-api
+mkdir go-users-auth
+z go-users-auth
+ls
+clear
+go mod init github.com/SaidMg10/go-users-auth
+go get -u github.com/go-chi/chi/v5
+nvim
+tree booking-api
+tree ../booking-api
+air
+clear
+z go-users-auth
+ls
+clear
+cat ../boking-api/Makefile
+z boking
+cat ../booking-api/Makefile
+tree ../booking-api
+cat ../booking-api/docker-compose.yml
+cat ../booking-api/config/config.go
+cat ../booking-api/internal/config/config.go
+cat ../booking-api/Makefile
+clear
+cat ../go-authx/main.go
+tree ../go-authx
+cat ../go-authx/config/config.go
+cat ../booking-api/internal/transport/http/routes.go
+tree ../booking-api
+cat ../booking-api/internal/transport/http/router.go
+cat ../booking-api/cmd/server/main.go
+cat ../barber-api/cmd/server/main.go
+tree ../barber-api
+exit
+cat ../booking-api/cmd/server/main.go
+cat ../booking-api/internal/config/config.go
+clear
+tree ../booking-api
+cat ../booking-api/app.yml
+go run main.go
+go run cmd/server/main.go
+cat ../booking-api/cmd/server/main.go
+go run cmd/server/main.go
+exit
+air
+go run cmd/server/main.go
+docker compose up -d
+go run cmd/server/main.go
+air init
+air
+air -v
+brew update air
+go install github.com/air-verse/air@latest<\n>
+air -v
+ls ../
+ls ../colabspace
+ls -la ../colabspace
+cat ../colabspace/.air.toml
+exit
+air 
+tree ../booking-api
+cat ../colabspace/repository/gorm_appointment.go
+cat ../colabspace/internal/repository/gorm_appointment.go
+cat ../booking-api/internal/repository/gorm_appointment.go
+cat ../booking-api/internal/domain/interfaces.go
+exit
+tree ../booking-api
+exit
+tree ../booking-api
+cat ../booking-api/internal/domain/interfaces.go
+cat ../booking-api/internal/domain/models.go
+clear
+tree ../booking-api
+cat ../booking-api/internal/repository/gorm_appointment.go
+clear
+cat ../booking-api/internal/service/appointment_service.go
+tree ../booking-api
+cat ../booking-api/internal/transport/http/appointment_handler.go
+tree ../booking-api
+tree ../barber-api
+cat ../barber-api/internal/transport/http/appointment_handler.go
+cat ../barber-api/internal/transport/http/router.go
+cat ../booking-api/cmd/server/main.go
+air
+migrate create -ext sql -dir migrations -seq create_users_table
+migrate -database postgres://postgres:adminPassword@localhost:5432/testing?sslmode=disable -path db/migrations up
+migrate -database postgres://postgres:adminPassword@localhost:5432/testing?sslmode=disable -path migrations up
+migrate -database postgres://postgres:adminPassword@localhost:5432/testing?sslmode=disable -path migrations down
+migrate -database postgres://postgres:adminPassword@localhost:5432/testing?sslmode=disable -path migrations up
+migrate -database postgres://postgres:adminPassword@localhost:5432/testing?sslmode=disable -path migrations down
+migrate -database postgres://postgres:adminPassword@localhost:5432/testing?sslmode=disable -path migrations up
+nvim
+exit
+nu
+exit
+nu 
+exit
+exit
+z go-users-auth
+migrate -database postgres://postgres:adminPassword@localhost:5432/testing?sslmode=disable -path migrations up
+migrate -database postgres://postgres:adminPassword@localhost:5432/testing?sslmode=disable -path migrations down
+migrate -database postgres://postgres:adminPassword@localhost:5432/testing?sslmode=disable -path migrations up
+clear
+ls
+ls ../
+cat ../go-authx/.env
+tree ../go-authx
+cat ../go-authx/routes/handlers/login.go
+ls
+z ..
+ls
+z go-authx
+z react
+ls
+z login
+ls
+npm run
+nvim
+z react-login
+air
+nvim
+z go-authx
+nvim
+z react-login
+nvim
+exit
+nvim
+exit
+npm start
+clear
+z go
+z user
+ls
+clear
+ls la
+ls -la
+clear
+z ..
+ls
+z said
+ls
+z `Google Drive`
+LS
+z `Mi unidad/`
+ls
+z Hyōka/
+ls
+z .obsidian
+ls
+z snippets
+ls
+mkdir .css
+nvim
+exit
+z snippets
+ls
+ls -la
+rm .css .DS_Store
+ls -la
+clear
+exit
+z snippets
+z ..
+ls
+z ..
+ls
+tree 
+clear
+tree
+nvim
+exit
+z hyouka
+z .obsidian
+ls
+nvim
+exit
+z snippets
+nvim
+exit
+z 
+ls
+clear
+exit
+ls
+exit
+clear
+z nest
+ls
+z ..
+ls
+z crm
+ls
+nvim
+yarn remove eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-prettier prettier eslint-config-prettier<\n>rm -rf node_modules yarn.lock<\n>
+yarn add -D eslint @eslint/js typescript-eslint @typescript-eslint/parser eslint-plugin-prettier prettier<\n>
+nvim
+clear
+ls
+clear
+z ..
+ls
+clear
+ls
+z `Google Drive`
+ls
+z `Mi unidad/`
+z Hyōka/
+ls
+nvim
+exit
+ls
+z barber
+ls
+tree
+z ..
+ls
+z booking-api/
+tree
+z ..
+z barber
+tree
+z boo
+tree
+z ..
+ls
+tree colabspace
+q
+exit
+ls
+clear
+z Development/
+ls
+z personal
+ls
+exit
+ls
+rm java_error_in_datagrip_ java_error_in_datagrip_37852.log
+rm java_error_in_datagrip_21849.log
+rm java_error_in_datagrip_37852.log
+ls
+clear
+ls
+z personal
+ls
+z monorepos
+ls
+mkdir gestor-one
+z gestor-one
+ls
+clear
+ls
+z ..
+ls
+tree folio/csm
+tree folio-csm
+z ..
+ls
+z golang
+ls
+tree barber-api
+cat barber-api/go.mod
+z .. 
+z gestor
+ls
+clear
+go mod init github.com/SaidMg10/gestor-one
+go get \ github.com/gin-gonic/gin \ gorm.io/gorm \ gorm.io/driver/postgres \ github.com/spf13/viper \ github.com/golang-migrate/migrate/v4 \ github.com/stretchr/testify
+ls
+cat go.mod
+go get github.com/gin-gonic/gin gorm.io/gorm  gorm.io/driver/postgres  github.com/spf13/viper  github.com/golang-migrate/migrate/v4  github.com/stretchr/testify
+ls
+nvim
+tree ../../personal/barber-api
+z personal
+tree barber-api
+ls
+z pe
+z golang 
+ls
+tree barber-api
+z gestor
+ls
+clear
+nvim
+clear
+nvim
+ls
+clear
+nvim
+nivm
+nvim
+exit
+clear
+ls
+ls 
+clear
+ls -la
+ls la
+ls -a
+z dotfiles
+ls
+z nvim
+ls
+nvim
+wq
+exit
+z nvim
+ls
+git log
+git checkout 60afd82584905e6b59cdbd5ca9dc27247cb6685c
+ls
+nvim
+git log
+git checkout main
+ls
+nvim
+nvim --clean
+cat ~/.local/state/nvim/log<\n>
+nvim --clean
+ls
+z lua
+z ls
+z 
+z lua
+ls
+z plugins
+ls
+nvim
+nvim --clean
+blink nvim --clean
+blink.lua nvim --clean
+ls
+nvim --clean blink.lua
+nvim
+nvim --clean noice.lua
+nvim --clean ui.lua
+nvim
+nvim --clean ui.lua
+nvim --clean blink.lua
+rm -rf ~/.local/share/nvim/lazy/noice.nvim<\n>rm -rf ~/.local/share/nvim/lazy/blink.cmp<\n>rm -rf ~/.local/share/nvim/lazy/*/lazy-lock.json<\n>
+nvim --clean
+nvim 
+z .. 
+ls
+z ..
+ls
+cat init.lua
+z plugins
+ls
+nvim 
+cp -r ~/.config/nvim ~/.config/nvim_backup<\n>cp -r ~/.local/share/nvim ~/.local/share/nvim_backup<\n>
+rm -rf ~/.config/nvim<\n>rm -rf ~/.local/share/nvim<\n>rm -rf ~/.local/state/nvim<\n>
+ls
+clear
+ls
+clear
+sh <(curl -L https://nixos.org/nix/install)
+q
+clear
+nvim
+curl -O https://raw.githubusercontent.com/Gentleman-Programming/Gentleman.Dots/refs/heads/main/install-linux-mac.sh<\n><\n>sudo chmod +x install-linux-mac.sh<\n>bash ./install-linux-mac.sh
+clear
+curl -O https://raw.githubusercontent.com/Gentleman-Programming/Gentleman.Dots/refs/heads/main/install-linux-mac.sh<\n><\n>sudo chmod +x install-linux-mac.sh<\n>bash ./install-linux-mac.sh
+clear
+exit
+ls
+clear
+z gestor
+zed 
+zed gestor-one
+ls
+nvim
+clear
+nvim
+which zed<\n>
+clear
+z 
+which ze
+brew install --cask zed<\n>
+sudo xcodebuild -license accept
+brew install --cask zed
+ls
+cleae
+zed .
+exit
+z ..
+ls
+ls a
+ls -a
+cat .zshrc
+q
+ls
+clear
+ls /usr/local/bin/zed<\n>ls /opt/homebrew/bin/zed<\n>
+ls /usr/local/bin/zed
+ls /opt/homebrew/bin/zed
+ls
+ls Applications
+z Applications/
+ls
+z .
+z ..
+exit
+nu
+ls
+clear
+zed .
+ls
+clear
+nvi
+nvim
+ls
+clear
+ls
+exit
+nu 
+clear
+z golang
+ls
+z go-authx
+ls
+z ..
+z go-finance
+ls
+tree internal
+cat internal/domain/models.go
+z ..
+ls
+z go-oauth
+ls
+cat main.go
+z ..
+ls
+z go-users-auth
+ls
+cat internal/domain/models.go
+ls
+ls migrations
+ls cmd
+ls cmd/server
+cat cmd/server/main.go
+z ..
+ls
+z go-users-auth
+l
+ls 
+cat internal/domain/interface
+cat internal/domain/interfaces
+ls internal/domain
+cat internal/domain/interfaces.go
+clear
+z gestor
+ls
+echo "# gestor-one" >> README.md<\n>git init<\n>git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:SaidMg10/gestor-one.git<\n>git push -u origin main
+git init
+ls
+ls a
+ls -a
+git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:SaidMg10/gestor-one.git<\n>git push -u origin main
+echo "# gestor-one" >> README.md
+git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:SaidMg10/gestor-one.git<\n>git push -u origin main
+git add .
+git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:SaidMg10/gestor-one.git<\n>git push -u origin main
+ls
+ls .a
+ls -a
+cat .air.toml
+ls -a
+cat Makefile
+cat .env
+ls -a
+cat .env.yml
+git s
+air 
+cat .air.toml
+air init
+git s
+tree 
+tree
+lazy git
+git commit -m "feat(config): add initial development configuration<\n><\n>why:<\n>Needed to set up hot-reload and provide basic developer instructions to run the project.<\n><\n>what:<\n>- Makefile<\n>- .air.toml<\n>- .env.template<\n>- .gitignore<\n><\n>impact:<\n>Improves developer workflow and accelerates local testing, without affecting runtime behavior of the application.<\n><\n>architecture:<\n>Development support only; no changes to domain, services, or project folder structure. Adds configuration files for hot-reload, environment variables, and initial project setup.<\n>"
+git add .
+git commit -m "feat(config): add initial development configuration<\n><\n>why:<\n>Needed to set up hot-reload and provide basic developer instructions to run the project.<\n><\n>what:<\n>- Makefile<\n>- .air.toml<\n>- .env.template<\n>- .gitignore<\n><\n>impact:<\n>Improves developer workflow and accelerates local testing, without affecting runtime behavior of the application.<\n><\n>architecture:<\n>Development support only; no changes to domain, services, or project folder structure. Adds configuration files for hot-reload, environment variables, and initial project setup.<\n>"
+git push 
+z 
+clear
+diskutil list
+sudo diskutil eraseDisk FAT32 KINGSTON MBR /dev/disk5<\n>
+ls
+clear
+git checkout -b feature/user-module
+git checkout -b feature/config
+ls
+clear
+z go-auth
+z ..
+ls
+z go-users-auth/
+ls
+tree
+cat internal/config/config.go
+go mod tidy
+cat internal/db/db.go
+cat cmd/server/main.go
+ls
+ls internal
+cat internal/transform/http/router.go
+cat internal/transport/http/router.go
+z ..
+z barber
+ls
+cat internal/transport/http/router.go
+go get ./..
+go get ./go.mod
+go get
+go get ./...
+ls internal
+ls internal/repository
+cat internal/repository/gorm_appoointment.go
+cat internal/repository/gorm_appointment.go
+cat cmd/server/main.go
+ls cmd/server
+z booking-api/
+z ..
+ls
+z booking-api
+ls
+cat cmd/server/main.go
+ls
+cat internal/repository/gorm_appointment.go
+ls internal
+ls internal/db
+cat internal/db/db.go
+go mod tidy
+cat internal/config/config.go
+go mod tidy
+clear
+z ..
+ls
+z go-users-auth/
+ls
+clear
+ls
+cat internal/db/db.go
+z barber-api
+ls
+cat cmd/server/main.go
+z booking-api
+cat cmd/server/main.go
+z go-users-auth/
+z go-users
+cat cmd/server/main.go
+ls
+cat docker-compose.yml
+cat Makefile
+make run
+cat makefile
+clear
+docker compose up -d
+clear
+docker compose up -d
+make run
+clear
+make run
+ls
+clear
+git s
+git add Makefile cmd/server/main.go go.mod go.sum internal/config internal/db
+git s
+git rm cmd/server/main.go
+git rm --cached cmd/server/main.go
+git s
+git restore --staged cmd/server/main.go
+git s
+git add docker-compose.yml
+git s
+git commit -m "feat(config): add initial configuration and database setup<\n><\n>why:<\n>Introduce the initial configuration files and database setup to start building the project's core settings.<\n><\n>what:<\n>- internal/config/config.go<\n>- internal/db/db.go<\n>- docker-compose.yml<\n><\n>impact:<\n>Adds foundational configuration and database files; no breaking changes.<\n><\n>architecture:<\n>Sets up the configuration and DB layer, which other parts of the project will depend on.<\n>"
+git s
+git add cmd/server/main.go internal/transport/http/router.go
+git s
+clear
+git commit -m "feat(server): add initial main entrypoint and basic HTTP router<\n><\n>why:<\n>Provide a minimal server setup to verify application startup and enable future endpoint integration.<\n><\n>what:<\n>- cmd/server/main.go<\n>- internal/transport/http/router.go<\n><\n>impact:<\n>Introduces the initial server entry and router; no breaking changes.<\n><\n>architecture:<\n>Adds the foundational server and routing layer that other modules will build upon.<\n>"
+git s
+git push
+git push --set-upstream origin feature/config
+clear
+git checkout main
+ls
+clear
+git branch
+git checkout feature/user-module
+ls
+clear
+ls
+git pull origin main
+git s
+clear
+clear
+go --v
+go --version
+git log
+ls
+clear
+ls
+clear
+clear
+ls
+ls
+ls internal
+ls repository
+ls internal/repository
+ls internal/domain
+cat internal/domain/interfaces.go
+z barber-api
+cat internal/domain/interfaces.go
+cat internal/domain/models.go
+ls internal/repository
+cat internal/repository/gorm_appointment.go
+cat internal/domain/interfaces.go
+cat internal/repository/gorm_appointment.go
+cat internal/domain/models.go
+git s 
+cat internal/service/user_service.go
+ls internal/service
+cat internal/service/appointment_service.go
+ls internal
+ls internal/transport
+ls internal/transport/http
+cat internal/service/trasnport/http/appointment_handler.go
+cat internal/transport/http/appointment_handler.go
+clear
+nvim
+cd 
+stow .
+clear
+stow
+clear
+z dot
+stow .
+ls
+git s
+nvim
+ls
+clear
+nvim
+nvm -v
+exit
+nvim 
+z dot
+ls
+nvim
+clear
+nvim
+stow .
+nvim
+clear
+z ..
+ls
+z -la
+z la
+z 
+la
+ls -la
+z .config
+ls
+rm -rf ~/.config/nvim<\n>rm -rf ~/.local/share/nvim<\n>rm -rf ~/.local/state/nvim<\n>
+z dot
+stow .
+nvim
+clear
+nvim
+exit
+exit
+rm -rf ~/.config/nvim<\n>rm -rf ~/.local/share/nvim<\n>rm -rf ~/.local/state/nvim<\n>
+ls
+z dot
+ls
+stow .
+nvim
+clear
+nvim
+git s
+ls
+nvim
+z plugins
+ls
+nvim --clean catppuccin.lua
+nvim
+ls
+cleafr
+clear
+nvim
+nvim --clean catppuccin.lua
+z ..
+ls
+z ..
+ls
+z .. 
+rm -rf ~/.config/nvim<\n>rm -rf ~/.local/share/nvim<\n>rm -rf ~/.local/state/nvim<\n>
+clear
+exit
+z dot
+stow .
+nvim
+nvim 
+ls
+clear
+ls
+clear
+git stow 
+stow 
+stow .
+ls
+clear
+nvim
+ls
+rm -rf ~/.config/nvim<\n>rm -rf ~/.local/share/nvim<\n>rm -rf ~/.local/state/nvim
+ls
+nvim
+clear
+stow .
+ls
+nvim
+ls
+nvim
+clear
+rm -rf ~/.config/nvim<\n>rm -rf ~/.local/share/nvim<\n>rm -rf ~/.local/state/nvim
+ls
+nvm use 20
+exit
+ls
+clear
+z dot
+rm -rf ~/.config/nvim<\n>rm -rf ~/.local/share/nvim<\n>rm -rf ~/.local/state/nvim
+clear
+stow .
+nvim
+exit
+nvim
+clear
+nvim
+clear
+ls ~/.local/share/nvim/lazy/LazyVim<\n>
+clear
+z lazy
+z nvim
+ls
+nvim --clean init.lua
+clear
+ls
+z lua 
+ls
+z config
+ls
+nvim --clean lazy.lua
+ls
+z ..
+ls
+z pliugins
+z plugins
+ls
+nvim --clean ui.lua
+nvim --clean example
+clear
+z 
+clear
+exit
+clear
+z go-users
+ls
+z ..
+ls
+z barber-api
+z internal
+ls
+z service
+ls
+cat appointment_service.go
+clear
+nvim
+clear
+z ..
+ls
+ls trasnport/http
+ls transport
+ls transport/http
+cat appointment_service.go
+cat internal/service/appointment_service.go
+cat service/appointment_service.go
+cat transport/http/appointment_handler.go
+cat transport/http/router.go
+z ..
+ls
+cat main.go
+ls cmd/server
+z ..
+z booking-api
+ls
+ls cmd/server
+cat cmd/server/main.go
+ls
+ls migrations
+cat migration/000001_create_table_products.down.sql
+cat migrations/000001_create_table_products.down.sql
+cat migrations/000001_create_table_products.up.sql
+z go-users
+ls
+ls migrations
+cat migrations/000001_create_users_table.up.sql
+ls internal/models
+ls internal
+ls internal/domain/models.go
+cat internal/domain/models.go
+ls internal
+ls internal/repository
+z internal
+ls repository/pgx_users.go
+cat repository/pgx_users.go
+ls
+ls service
+cat service/user_service.go
+ls
+clear
+z ..
+ls
+z colabspace
+ls
+z barber-api
+ls 
+z internal
+ls
+cat service/appointment_service.go
+z .. 
+z http
+z barber-api
+z transport
+z internal
+z transport
+z http
+ls
+cat appointment_service.go
+cat appointment_handler.go
+ls
+z ..
+ls
+z ..
+ls
+ls repository
+cat repository/gorm_appointment.go
+cat repository/gorm_product.go
+exit
+ls
+z barber-api
+cat internal/repository/gorm_appointment.go
+cat internal/transport/http/appointment_handler.go
+ls
+clear
+nvim
+z lua
+ls
+z plugins
+ls
+nvim --clean blink.lua
+nvim --clean ui
+ls
+nvim --clean ui.lua
+clear
+nvim
+nvim --clean ui.lua
+nvim --version<\n>
+brew update<\n>brew upgrade neovim<\n>
+ls
+nvim
+clear
+rm -rf ~/.local/share/nvim/lazy<\n>rm -rf ~/.local/state/nvim/lazy<\n>rm -rf ~/.cache/nvim<\n>
+nvim
+nvm use 22
+clear
+exit
+z lua
+nvim
+ls
+z .. 
+ls
+z ..
+ls
+cat README.md
+clear
+nvim
+ls
+clear
+ls
+git s
+git branch
+git add 
+git checkout -b testing/config

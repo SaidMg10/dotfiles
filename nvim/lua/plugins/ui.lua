@@ -35,14 +35,14 @@ return {
           lsp_doc_border = true, -- Enable LSP documentation border
         },
         -- Uncomment the following lines to customize the cmdline popup view
-        -- views = {
-        --   cmdline_popup = {
-        --     filter_options = {},
-        --     win_options = {
-        --       winhighlight = "NormalFloat:NormalFloat,FloatBorder:FloatBorder",
-        --     },
-        --   },
-        -- },
+        views = {
+          cmdline_popup = {
+            filter_options = {},
+            win_options = {
+              winhighlight = "NormalFloat:NormalFloat,FloatBorder:FloatBorder",
+            },
+          },
+        },
       })
     end,
   },
@@ -113,7 +113,7 @@ return {
   -- URL: https://github.com/echasnovski/mini.nvim
   -- Description: A collection of minimal, fast, and modular Lua plugins for Neovim.
   {
-    "echasnovski/mini.nvim",
+    "nvim-mini/mini.nvim",
     version = false, -- Use the latest version
     config = function()
       require("mini.animate").setup({
