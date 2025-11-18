@@ -5,6 +5,12 @@ return {
     name = "catppuccin",
     priority = 1000,
     opts = {
+      flavour = "mocha",
+      background = {
+        light = "latte",
+        dark = "mocha",
+      },
+      transparent_background = true,
       integrations = {
         aerial = true,
         alpha = true,
@@ -42,31 +48,20 @@ return {
         treesitter = true,
         treesitter_context = true,
         which_key = true,
-      },
-    },
-    specs = {
-      {
-        "akinsho/bufferline.nvim",
-        optional = true,
-        opts = function(_, opts)
-          if (vim.g.colors_name or ""):find("catppuccin") then
-            opts.highlights = require("catppuccin.groups.integrations.bufferline").get()
-          end
-        end,
-      },
-    },
-    config = function()
-      require("catppuccin").setup({
-        flavour = "mocha",
-        background = {
-          light = "latte",
-          dark = "mocha",
-        },
-        transparent_background = true,
-      })
-      vim.cmd.colorscheme("catppuccin")
-      -- Forzar transparencia en floating windows
 
+        -- 🔥 Nueva forma correcta de integrar bufferline
+        bufferline = true,
+      },
+    },
+
+    -- ❌ Eliminamos el spec viejo que intentaba importar un módulo que ya no existe
+    -- (bufferline se integra automáticamente con "bufferline = true")
+
+    config = function(_, opts)
+      require("catppuccin").setup(opts)
+      vim.cmd.colorscheme("catppuccin")
+
+      -- 🌫️ Transparencia para floating windows
       vim.api.nvim_set_hl(0, "NormalFloat", { bg = "NONE" })
       vim.api.nvim_set_hl(0, "FloatBorder", { fg = "#89b4fa", bg = "NONE" })
       vim.api.nvim_set_hl(0, "FloatTitle", { bg = "NONE" })
