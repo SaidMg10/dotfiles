@@ -168,3 +168,4 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
 export XDG_CONFIG_HOME=$HOME/.config
 export OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxx"
+export PATH="$HOME/.local/bin:$PATH"
